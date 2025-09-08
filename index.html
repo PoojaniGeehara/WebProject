@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechXplore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="icon" href="image/logo.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        
+</head>
+<body>
+    <header>
+                <a href="#" class="logo"><img src="image/logo.jpg"></a>          
+                <i class='bx bx-menu' id="menu-icon"></i>
+                
+           
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li> 
+                <li><a href="#about">About Us</a></li>           
+                <li><a href="#sign">Sign In</a></li>              
+                <li><a href="#create new account">Create New Account</a></li>
+                <li><a href="#item">Items</a></li>
+                <li><a href="#customers">Customers</a></li>
+                
+              
+            </ul>
+            <div class="header-icon">
+              <i class='bx bx-cart-alt'></i>
+              <i class='bx bx-search-alt-2'id="search-icon" ></i>
+              
+            </div>
+
+            <div class="search-icon">
+              <input type="search" placeholder="Search Here...">
+            </div>
+        
+    </header>
+
+    <section class="homepage" id="home">
+        <div class="content">
+           <div class="text">
+                <h1>TechExplore</h1>
+                <p class="t">From us, the products you want for the money in your hand for 
+        the lovely porch.<br>Best place for
+        high quality electronic equipments.</p>
+           </div>
+             <a href="#create new account">JOIN US</a>
+        </div>
+    </section>
+ 
+
+    <main>
+      <section class="about" id="about">
+          <div class="about-img">
+            <img src="image/about.avif">
+          </div>
+
+          <div class="about-text">
+              <h2>Welcome to TechExplore!</h2>
+              <p>TechExplore is dedicated to bringing you the finest selection of high-quality electronic equipment at prices that won't strain your budget.</p>
+              <p> We believe in making technology accessible for everyone, so you can enjoy the products you want while relaxing on your porch. With our carefully curated inventory, we aim to enhance your daily life, whether you're working, gaming, or simply enjoying your favorite media. Trust us to be your go-to source for all things tech!</p>
+          </div>
+      </section>
+  </main>
+
+    <section class="s1" id="sign">
+        <div class="col-12 col-lg-6" id="signinbox">
+           <div class="row g-2">
+               <div class="col-12">
+                  <p class="title02">Sign  In</p>
+               </div>
+               <div class="col-12">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control" placeholder="ex:poojani@gmail.com" />
+               </div>
+               <div class="col-12">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" placeholder="ex:*******"/>
+               </div>
+               <div class="col-6">
+                  <div class="form-check">
+                      <input  type="checkbox" id="remember-me" name="remember-me">
+                      <label  for="remember-me">Remember Me</label>
+                  </div>
+               </div>
+               <div class="col-6 text-end">
+                   <a href="#" class="link-primary">Forgotten Password?</a>
+               </div>
+               <div class="col-12 col-lg-6 d-grid">
+                     <button class="btn btn-danger">Sign In</button>
+               </div>
+               
+            </div>
+        </div>
+        
+                 <div class="col-12 col-lg-6" id="signinbox">
+                      <div class="row g-2">
+                          <div class="col-12">
+                              <p class="title03"> Admin Sign In</p>
+                          </div>
+                          <div class="col-12">
+                               <label class="form-label">Email</label>
+                               <input type="email" class="form-control" placeholder="ex:poojani@gmail.com"/>
+                          </div>
+                          <div class="col-12">
+                               <label class="form-label">Password</label>
+                               <input type="password" class="form-control" placeholder="ex:*******"/>
+                          </div>
+                         <div class="col-6">
+                           <div class="form-check">
+                            <input type="checkbox"  id="remember-me" name="remember-me">
+                            <label for="remember-me">Remember Me</label>
+                           </div>
+                        </div>
+                          <div class="col-6 text-end">
+                            <a href="#" class="link-primary">Forgotten Password?</a>
+                          </div>
+                          <div class="col-12 col-lg-6 d-grid">
+                            <button class="btn btn-primary">Sign In</button>
+                         </div>
+                      </div>
+
+                 </div>
+    </section>
+                
+      
+        <section class="s2" id="create new account">
+                <div class="col-12 col-lg-6" id="signupbox">
+                     <div class="row g-2">
+                          <div class="col-12">
+                             <p class="title02">Create New Account</p>
+
+                          </div>
+                          <form action="#">
+                          <div class="col-6">
+                                <label class="form-label">First Name</lable>
+                                   <input class="form-control" type="text" placeholder="ex:Poojani" />
+                          </div>
+                          <div class="col-6">
+                              <label class="form-label">Last Name</label>
+                                    <input class="form-control" type="text" placeholder="ex:Wijenayake"/>
+                          </div>
+                          <div class="col-12">
+                            <label class="form-label">Email</label>
+                            <input class="form-control" type="email"
+        placeholder="ex:poojani@gmail.com" />
+                          </div>
+                          <div class="col-12">
+                             <label class="form-label">Password</label>
+                                <input class="form-control" type="password" placeholder="ex:****" />
+                          </div>
+                          <div class="col-6">
+                               <label class="form-label">Mobile</label>
+                                 <input class="form-control" type="text" placeholder="ex:0701231234"/>
+                          </div>
+                          <div class="col-6">
+                               <label class="form-label">Gender</label>
+                               <select class="form-control">
+                                  <option>Select Your Gender</option>
+                                  <option>Male</option>
+                                  <option>Female</option>
+                               </select>
+                          </div>
+                          <button type="submit">Sign Up</button>
+                          </form>
+                          </div>
+                      </div>
+                </div>
+        </section>
+      <section class="galary" id="item"> 
+        <div class="item-heading">
+            <h2>ITEMS</h2> 
+
+          <div class="product">
+            
+            <img src="image/kettle.jpg">
+            <h3>Electric Kettle</h3>
+            <p>Tiger Thermos Bottle 1L vacuum flask water stainless jug thermal pot Hot Japan</p>
+            <h6>Rs5000</h6>
+            <div class="content-1">
+             <button class="buy-1">Buy Now</button>
+             <a href="#">Add to cart</a>
+            </div>
+
+          </div>
+          <div class="product">
+                                         
+              <img src="image/toster.jpg">
+              <h3>Toster</h3>
+              <p>Brand New Morphy Richards 220033 Hive 2 Slice Toaster White</p>
+              <h6>Rs7000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+               </div>
+          </div>
+
+          <div class="product">
+              <img src="image/blender.webp">
+              <h3>Blender</h3>
+              <p>350W Table Blender Mixer Hometronix Juicer Milk Shake Maker 1.2L Food Processor</p>
+              <h6>Rs6000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+               </div>
+          </div>
+
+          <div class="product">
+              <img src="image/iron.png">
+              <h3>Iron</h3>
+              <p>Steam Iron 1600W Non-Stick Soleplate Dry/Steam Iron Adjustable Temperature White</p>
+              <h6>Rs3000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+               </div>
+          </div>
+
+          <div class="product">
+              <img src="image/speker.jpg">
+              <h3>Speaker</h3>
+              <p>Soundcore Select Pro Portable Bluetooth Speaker LED BassUp Outdoor Camping  IPX7</p>
+              <h6>Rs10000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+               </div>
+          </div>
+
+          <div class="product">
+              <img src="image/mini fan.jpeg">
+              <h3>Table Fan</h3>
+              <p>Mini USB Desk Fan Small Quiet Personal Cooler USB Powered Portable Table Fan</p>
+              <h6>Rs2000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+               </div>
+          </div>
+
+          <div class="product">
+              <img src="image/rice cooker.jpg">
+              <h3>Rice Cooker</h3>
+              <p>Wilko 1.8L Rice Cooker Steamer Pot 3 in 1 Cooking Non Stick Electric Keep Warm</p>
+              <h6>Rs6000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div>
+
+          <div class="product">
+              <img src="image/radio.jpg">
+              <h3>Radio</h3>
+              <p>RD-666 Retro AM/FM/SW 3-Band Portable Radio with Bluetooth Boombox Flash Light</p>
+              <h6>Rs1000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div>
+
+          <div class="product">
+              <img src="image/table fan.jpg">
+              <h3>Table Fan</h3>
+              <p>9" OSCILLATING ELECTRIC DESK FAN 9 INCH 2 SPEED PORTABLE HOME OFFICE</p>
+              <h6>Rs5000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div>
+
+          <div class="product">
+              <img src="image/remote car.jpeg">
+              <h3>Remote Control Car</h3>
+              <p>GaHoo Remote Control Car for Kids - 1/16 Scale Electric Remote Toy Racing, wi...</p>
+              <h6>Rs9000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div>
+
+          <div class="product">
+              <img src="image/bicycle.jpg">
+              <h3>Electric Bicycle</h3>
+              <p>MiRiDER One Solar Orange Folding Electric Lightweight E-Bike | 7ah 250W 15.5mph</p>
+              <h6>Rs20000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div>
+
+          <div class="product">
+              <img src="image/tv.jpg">
+              <h3>Smart Tv</h3>
+              <p>Sharp 24" Inch HD Ready LED TV with Freeview HD and built-in DVD player - Black</p>
+              <h6>Rs20000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div>
+
+          <div class="product">
+              <img src="image/mouse.jpeg">
+              <h3>Mouse</h3>
+              <p>Universal Wired Usb Optical Mouse For MAC PC Laptop Computer Scroll Wheel 
+             Bl...</p>
+              <h6>Rs3000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div>
+
+          <div class="product">
+              <img src="image/headphone.webp">
+              <h3>Wireless Headphones</h3>
+              <p>Active noise cancellation, 30-hour battery life, high-res audio, and memory foam ear cushions.</p>
+              <h6>Rs8000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div>
+
+            
+          <div class="product">
+              <img src="image/keyboard.png">
+              <h3>Keyboard</h3>
+              <p>Full-Sized Layout, Responsive Keys, and Ergonomic Design for Comfortable Typing</p>
+              <h6>Rs3000</h6>
+              <div class="content-1">
+                <button class="buy-1">Buy Now</button>
+                <a href="#">Add to cart</a>
+              </div>
+          </div> 
+        </div>
+        
+      </section>
+
+    <section class="customers" id="customers">
+        <div class="cus-heading">
+            <h2>Feedback</h2>    
+        
+
+         <div class="customers-contaner">
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>Item Received with Good care and packing..working as expected.. Excellent Service</p>
+                <br>
+                <h2>Sithum Samarakoon</h2>
+                <img src="image/cus1.jpeg">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <p>Very satisfied with the customer service and quality of the products.</p>
+                <br>
+                <h2>Kanishka Yohan</h2>
+                <img src="image/cus2.jpeg">
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star-half' ></i>
+                    
+                </div>
+                <p>Customer service is best..<br>  Excellent service</p>
+                <br>
+                <h2>Pabasara Samarathunga</h2>
+                <img src="image/cus3.jpeg">
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+        
+    <section class="footer">
+        <div class="footer-box">
+            <h3>TechXplore</h3>
+            <p>"At TechXplore, we take pride in offering you the best in high-quality 
+                electronic equipment and cutting-edge technology. 
+                Our carefully curated selection of products is crafted with precision 
+                and the latest innovations, ensuring a top-tier experience every time. 
+                From sleek gadgets to powerful devices, each item is made with premium 
+                components and a commitment to excellence, guaranteeing unmatched 
+                performance and reliability. 
+                Whether you need a quick tech solution or a game-changing innovation, 
+                we’re here to meet your needs with expertise and precision.
+                </p>
+                
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+
+        </div>
+        
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#sign">Sign In</a></li>
+            <li><a href="#item">Items</a></li>
+            <li><a href="#customers">Customers</a></li>
+                  
+        </div>
+
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms And Conditions</a></li>
+            
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact Info</h3>
+            <div class="contact">
+                <span><i class='bx bx-map'></i>60/1,Hakmana road,Matara</span>
+                <span><i class='bx bxs-phone-call' ></i>+94 70 7471610</span>
+                <span><i class='bx bxs-envelope' ></i>techexplore@gmail.com</span>
+            </div>
+        </div>
+   </section>
+
+   
+    <div class="bottom">
+      <p> &copy;TechExplore.All Right Reserved</p>
+    </div>
+  
+   
+    
+</body>
+
+</html>
